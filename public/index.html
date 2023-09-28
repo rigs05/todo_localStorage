@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>ToDo App</title>
+</head>
+<body>
+    <div class="container">
+        <form class="">
+            <h1 id="title">TO-DO APPLICATION</h1>
+            <input id="inputBox" type="text" name="item" value="" placeholder="e.g. buy vegetables🥔🍅🥕">
+            <!-- <a class="btn0" href=""><button type="submit" id="btn">OK</button></a> -->
+            <button type="submit" id="btn" class="btn0" onclick="manageData(event)">Add</button>
+        </form>
+        <div id="msg"></div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Sno</td>
+                    <td>Items</td>
+                    <td>Action</td>
+                </tr>        
+            </thead>
+            
+            <tbody id="root">
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- <script src="./todo.js"></script> -->
+    <script src="./file.js"></script>
+</body>
+</html>

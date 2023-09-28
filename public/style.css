@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;      /* Viewport Height */
+}
+
+.container {
+    display: block;
+    padding: 10px;
+    border: 2px solid;
+    /* height: 400px; */
+    width: 60%;
+    text-align: center;
+    overflow-x: auto;
+}
+
+#inputBox {
+    padding: 15px;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.btn0 {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 15px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+.table {
+    display: table;
+    margin: 20px auto;
+    /* border: 1px solid gray; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    font-size: larger;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+#root {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.dataTable {
+    display: table;
+    margin: 8px auto;
+}
+
+.dataTable td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
